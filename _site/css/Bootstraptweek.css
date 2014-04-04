@@ -1,0 +1,113 @@
+/*****************************************************************************/
+/*
+/* Custom Bits
+/*
+/*****************************************************************************/
+/*Top Nav Bar*/
+ .navbar-inner{
+	background-color:#AD0516;
+	background-image: none;
+	color:white;
+}
+.navbar .nav>li>a{
+	background-color:red;
+	background-image: none;
+	color:white;
+	
+}
+.navbar .nav>.active>a,
+.navbar .nav>.active>a:focus{
+	background-color:blue;
+	background-image: none;
+}
+.navbar .nav>.active>a:hover,
+.navbar .nav>li>a:hover,
+.navbar .nav>li>a:focus,
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:hover, 
+.navbar-inverse .navbar-nav>.open>a:focus {
+	background-color:blue;
+	background-image: none;
+	color:red;
+}
+
+.navbar {
+	position:relative; 
+	width:100%;
+	margin:auto;
+	margin-top:10px;
+	background-color:red;
+	background-image: none;	
+}
+.nav .navbar-nav .navbar-right{
+	margin:0;
+}
+
+/*End Top Nav*/
+
+/* Body */
+body{
+	color:black;
+}
+.container{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.content{
+	position:relative; 
+	width:85%;
+	margin:auto;
+	text-align:left;
+}
+.content ol,.content ul{
+	padding:3px 0px 0px 25px;
+}
+/*End Body*/
+/*Side Nav*/
+.col-sm-3, .col-md-2, .sidebar{
+	position:relative; 
+	width:15%;
+	float:left;
+	text-align:left;
+	margin:0;
+	padding:0;
+	overflow-y:auto;
+}
+a{
+	color:#0000FF;
+	margin:0;
+	}
+a:visited{
+	color:#191970;
+	}
+a:hover{
+	color:#FFFFFF;
+}
+.nav-example a:hover,.nav-example a:visited:hover,.nav-example li.active>a{
+	color:#FFFFFF;
+	background-color:#858585;
+	margin:0;	
+	-moz-box-shadow: 3px 3px 4px #444;
+	-webkit-box-shadow: 3px 3px 4px #444;
+	box-shadow: 3px 3px 4px #444;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#444444');
+	
+	}
+
+.nav-example>ul>li.active{
+	padding:4px;
+	}
+.nav-example li ul{
+	display:none;
+	}
+.nav-example li.active ul,.nav-example li:hover ul{
+	display:block;
+	margin-left:5px;
+	}
+/*End Side Nav*/
+.footer{
+	position:relative; 
+	width:100%;
+}
