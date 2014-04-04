@@ -16,10 +16,8 @@
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
-	<!-- SmartMenus jQuery Bootstrap Addon CSS -->
-	<link href="/css/jquery.smartmenus.bootstrap.css" rel="stylesheet">
 	<!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/Bootstraptweek.css">
+        <link rel="stylesheet" href="./css/Bootstraptweek.css">
  
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,17 +28,17 @@
 
   <body>
 	<div class="container">
-		<img src="/Logo.jpg" alt ="No Image" style="height:150px;width:390"/>
+		<img src="./Logo.jpg" alt ="No Image" style="height:150px;width:390"/>
 		<nav class="navbar navbar-inverse" role="navigation">
 		  <div class="container-fluid" >
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav">
-			<li><a href="/">Welcome</a></li>
-			<li><a href="/Common Misconceptions/">Common Misconceptions</a></li>
-			<li><a href="/Policyholder Resources/">Policyholder Resources</a></li>
-			<li><a href="/Testimonials/">Testimonials</a></li>
-			<li><a href="/Contact Us/">Contact Us</a></li>
+			<li><a href="/ClaimsTestPage/">Welcome</a></li>
+			<li><a href="/ClaimsTestPage/Common Misconceptions/">Common Misconceptions</a></li>
+			<li><a href="/ClaimsTestPage/Policyholder Resources/">Policyholder Resources</a></li>
+			<li><a href="/ClaimsTestPage/Testimonials/">Testimonials</a></li>
+			<li><a href="/ClaimsTestPage/Contact Us/">Contact Us</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
@@ -68,11 +66,6 @@
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-	<!-- SmartMenus jQuery plugin -->
-<script type="text/javascript" src="/jquery.smartmenus.min.js"></script>
-
-<!-- SmartMenus jQuery Bootstrap Addon -->
-<script type="text/javascript" src="/jquery.smartmenus.bootstrap.min.js"></script>
 	</div>
     </body>
 </html>
