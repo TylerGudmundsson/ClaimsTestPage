@@ -50,17 +50,15 @@
 		  {{ content }}
 		</div>
 
-		  <div class="footer" style="padding:auto">
-		    <div class="contact" style="text-align:center">
-		      <p>
+		  <div class="footer" style="margin:auto">
+		   
 			<h1 style="color:red">American Claims LLC</h1>
 			<a href="www.americanclaimsllc.com">www.americanclaimsllc.com</a><br />
 			Phone: +1 (303)204-1095<br/>
 			Fax: (303)721-9197</br>
 			E-mail: Info@NeuronRobotics.com<br/>
 			10008 Astoria Court Littleton, CO 80124<br/>
-		      </p>
-		    </div>
+
 		  </div>
 	  
 
